@@ -1,10 +1,9 @@
 section.slider{
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
     height: auto;
     padding: 0 !important;
     overflow: hidden;
-
 }
     
 
@@ -82,30 +81,4 @@ section.slider{
     .nav-auto, .nav-manual{
         margin-top: 60%;
     }
-}
-
-
-footer{
-    background-color: #080B3B;
-    color:#ffffff;
-    padding-left: 95px;
-    padding-top: 40px;
-    height: 450px;
-}
-
-.submenu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 6rem;
-}
-
-.categ{
-    margin: 0 10px;
-}
-
-.text-inicio{
-    padding: 100px;
-    text-align: center;
-    
 }
