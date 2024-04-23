@@ -1,0 +1,10 @@
+.text-pr {
+    text-align: justify;
+    padding: 1.5rem 6rem;
+    line-height: 25px;
+    
+}
+
+li{
+    list-style: none;
+}

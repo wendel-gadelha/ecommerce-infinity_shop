@@ -52,3 +52,22 @@ footer{
     font-size: 12px;
 }
 
+.rodape button, .nav-button-rodape{
+    padding: 10px 15px;
+    background-color: #FF6900;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-button-rodape:hover{
+    background-color: #ffc8a1dc;
+    color: #080B3B;
+    
+}
+
+.nav-button-rodape a{
+    text-decoration: none;
+    color: #ffffff;
+}

@@ -5,6 +5,7 @@
     padding-top: 15px;
     list-style: none;
     
+    
 }
 
 .bottom-submenu nav ul li a{
@@ -21,6 +22,8 @@
     background-color: #FF6900;
     color: rgb(255, 255, 255);
     box-shadow: inset 0 0 8px #dfbca3;
+    
+    
 }
 
 .drop-houver{
@@ -48,4 +51,11 @@
 .text-inicio{
     padding: 100px;
     text-align: center;
+}
+
+.mockup-imgs{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 6rem;
+    
 }

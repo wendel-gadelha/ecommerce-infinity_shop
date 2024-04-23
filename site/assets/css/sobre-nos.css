@@ -1,0 +1,39 @@
+.sobre-nos{
+    padding: 1.5rem 6rem;
+    margin: 0 0 30px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.formulario{
+    display: flex;
+}
+    
+form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+form input, form textarea{
+    background-color: #eeeeee;
+    padding: 20px;
+    min-width: 100px;
+    border: 0.1px;
+    border-radius: 10px;
+}
+
+.enviar input{
+    background-color: #080B3B;
+    color: #fff;
+    font-size: medium;
+    cursor: pointer;
+    
+}
+
+.enviar input:hover{
+    background-color: #0f1568b6;
+}
+

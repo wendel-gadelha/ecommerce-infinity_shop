@@ -1,0 +1,28 @@
+.text {
+    padding: 1.5rem 6rem;
+    margin: 0 0 30px;
+    line-height: 25px;
+
+}
+
+li{
+    list-style: none;
+}
+
+.link {
+    display: flex;
+    max-width: 400px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    background-color: #080b3b;
+    color: #fff;
+    border-radius: 10px;
+    border: 0.1px;
+    cursor: pointer;
+    
+}
+
+.link:hover{
+    background-color: #080b3bdc;
+    
+}
