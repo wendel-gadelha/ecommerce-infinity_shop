@@ -13,6 +13,6 @@ function proximaImg(){
         cont = 1
     }
     
-  document.getElementById('radio'+cont) .checked = true
+  document.getElementById('radio' + cont) .checked = true
 
 }

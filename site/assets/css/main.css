@@ -1,52 +1,112 @@
 .bottom-submenu nav ul{
+    padding: 1.5rem 6rem;
     display: flex;
-    align-items: center;
-    justify-content:center;
-    padding-top: 15px;
+    justify-content:space-between;
     list-style: none;
-    
-    
+    z-index: 5; 
+}
+
+i{
+    color: #FF6900;
+}
+
+.drop-houver a i{
+    margin-left: 5px;
+} 
+
+li i{
+    margin-right: 5px;
+
 }
 
 .bottom-submenu nav ul li a{
-    color:#222222;
+    color:#5c5c5c;
+    font-weight: 400;
+    border-radius: 5px;
     text-decoration: none;
-    padding: 20px 20px ;
+    padding: 5px 10px;
     display: block;
     transition: .2s;
-    
-
+    z-index: 5;
 }
 
 .bottom-submenu nav ul li a:hover{
-    background-color: #FF6900;
-    color: rgb(255, 255, 255);
-    box-shadow: inset 0 0 8px #dfbca3;
-    
-    
+    background-color: #080B3B;
+    color: #fff;
+    z-index: 5;    
 }
 
-.drop-houver{
-    position: relative;
+.drop-houver .categ-m .categ-f{
+    position: relative;  
 }
 
-.drop-houver .drop{
+.drop-houver .drop1, .drop2, .drop3, .drop4, .drop5, .drop6 {
     position: absolute;
-    background-color: #FF6900;
-    width: 100%;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    max-width: 100%;
     height: 0;
     overflow: hidden;
     transition: .5s;
+    z-index: 5;
 }
 
-.drop-houver .drop a{
-    padding: 20px;
-
+.drop-houver .drop1, .drop3, .drop4, .drop5, .drop6 a{
+    color: #5c5c5c;
+    font-size: 14px; 
+    
 }
 
-.drop-houver:hover .drop{
-    height: 300px;
+.categ-f , .categ-m {
+    color: #5c5c5c;
+    font-size: 14px; 
+    z-index: 5;
 }
+
+.drop-houver:hover .drop1{
+    height: 135px;
+    width: 148px; 
+    
+}
+
+.drop-houver:hover .drop2{
+    height: 343px;
+    z-index: 5;
+    
+}
+
+.drop-houver:hover  .categ-m{
+    height: 150px;
+}
+
+.drop-houver:hover  .categ-f{
+    height: 2700px;
+    z-index: 5;
+}
+
+
+.drop-houver:hover .drop3{
+    height: 135px;
+    width: 169px;
+}
+
+.drop-houver:hover .drop4{
+    height: 134px;
+    width: 109px;
+}
+
+.drop-houver:hover .drop5{
+    height: 135px;
+    width: 124px;
+    
+}
+
+.drop-houver:hover .drop6{
+    height: 135px;
+    
+}
+
+
 
 .text-inicio{
     padding: 100px;

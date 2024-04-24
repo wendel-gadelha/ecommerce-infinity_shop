@@ -6,12 +6,21 @@ footer{
     
 }
 
+.rodape button i{
+    margin-right: 5px;
+}
+
+.rodape i{
+    color: #ffffff;
+}
+
 .rodape{
     display: flex;
     justify-content: space-between;
 }
 
 .logo-contatos{
+    font-size: 450;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -63,7 +72,7 @@ footer{
 
 .nav-button-rodape:hover{
     background-color: #ffc8a1dc;
-    color: #080B3B;
+    color: #fff;
     
 }
 

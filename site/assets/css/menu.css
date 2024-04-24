@@ -35,6 +35,11 @@ header{
     list-style: none;
 }
 
+.nav-list i{
+    margin-right: 8px;
+    
+}
+
 .nav-item{
     margin: 0 10px;
 }
@@ -53,7 +58,8 @@ header{
     width: 500px;
     height: 25px;
     padding: 5px;
-    border-radius: 3px;
+    border-radius: 10px;
+    border: none;
 }
 
 .mobile-menu-icon{

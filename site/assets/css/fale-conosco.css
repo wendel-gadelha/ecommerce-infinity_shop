@@ -9,6 +9,13 @@ li{
     list-style: none;
 }
 
+.contatos button i{
+    margin-right: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
 .link {
     display: flex;
     max-width: 400px;
