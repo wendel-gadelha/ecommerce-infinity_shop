@@ -35,6 +35,7 @@ section.slider{
     margin-top: 34%;
     display: flex;
     justify-content: center;
+    
 }
 
 .nav-manual .manual-btn, .nav-auto div{
@@ -43,6 +44,7 @@ section.slider{
     border-radius: 50%;
     cursor: pointer;
     transition: 0.2s;
+    
 }
 
 .nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
