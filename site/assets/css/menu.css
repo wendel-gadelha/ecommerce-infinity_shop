@@ -7,7 +7,7 @@
 
 header{
     background-color: #080B3B;
-    box-shadow: 0px 3px 10px #464646;
+    box-shadow: 0px 3px 8px #dbdbdb;
 }
 
 .nav-bar{
@@ -19,13 +19,12 @@ header{
 
 .logo img{
     display: flex;
-    align-items: center;
     height: 70px;
 }
 
 .nav-list{
     display: flex;
-    align-items: center;
+    
 }
 
 .nav-list ul{
@@ -36,7 +35,8 @@ header{
 }
 
 .nav-list i{
-    margin-right: 8px;
+    margin-right: 6px;
+    color: #f79f61;
     
 }
 
@@ -56,11 +56,12 @@ header{
 
 .pesquisa{
     width: 500px;
-    height: 25px;
+    height: 30px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
 }
+
 
 .mobile-menu-icon{
     display: none;

@@ -3,11 +3,6 @@ footer{
     color:#ffffff;
     padding: 1.5rem 6rem;
     height: 380px;
-    
-}
-
-.rodape button i{
-    margin-right: 5px;
 }
 
 .rodape i{
@@ -20,63 +15,59 @@ footer{
 }
 
 .logo-contatos{
-    font-size: 450;
+    font-size: 300;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .logo-rodape{
-    margin: 0px 0px 15px;
+    width: 100px;
+    margin: 0px 0px 40px;
 }
 
-.nav-button-rodape{
-    margin: 10px 0px 0px 0px;
+.link-app a{
+    cursor: pointer;
+    
 }
-
-.categorias, .atendimento{
-    margin-top: 20px; 
+.categorias, .atendimento, .pagamento{
+    margin-top: 40px; 
     
 }
 
-.title-categorias, .title-atendimento{
-    font-size: 20px;
+.title-categorias, .title-atendimento, .title-pagamento{
+    font-size: 18px;
     margin: 0px 0px 20px;
 }
 
-.nav-cate, .nav-atend{
-    list-style: none;
-    margin: 0px 0px 10px;
-}
+
 
 .link-cate, .link-atend{
     text-decoration: none;
     color: #ffffff;
-    font-size: 14px;
+     
 }
+
+.bandeiras img{
+    height: 180px;
+    margin-top: 5px;
+}
+
+.rodape li{
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.icon-app img{
+    height: 35px;
+    margin-bottom: 5px;
+   
+}
+
 
 .text-rodape{
     text-align: center;
-    margin: 60px;
+    margin: 46px;
     font-size: 12px;
-}
-
-.rodape button, .nav-button-rodape{
-    padding: 10px 15px;
-    background-color: #FF6900;
-    color: #ffffff;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-}
-
-.nav-button-rodape:hover{
-    background-color: #ffc8a1dc;
-    color: #fff;
-    
-}
-
-.nav-button-rodape a{
-    text-decoration: none;
-    color: #ffffff;
 }

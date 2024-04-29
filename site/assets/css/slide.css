@@ -38,12 +38,14 @@ section.slider{
     
 }
 
+
 .nav-manual .manual-btn, .nav-auto div{
     border: 1px solid #cecdcd;
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.2s;
+    height: 0.024px;
     
 }
 
