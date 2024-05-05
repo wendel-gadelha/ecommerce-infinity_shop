@@ -13,7 +13,7 @@
     <script src="slide.js" defer></script>
     <title>Página Inicial</title>
 </head>
-<body>
+<body class="">
 
     <header>
   
@@ -179,7 +179,7 @@
          </div>
        </section>
 
-      <section class="text-inicio">
+       <section class="text-inicio">
         <div class="text-contend">
             <h1>Lorem Ipsum</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -192,15 +192,53 @@
                natus? Facilis, saepe ex! Excepturi porro sunt minus tempora 
                placeat quibusdam vero autem, officiis facilis vel illo assumenda 
                at ut saepe aut?</p>
-            </div>
         </div>
-      </section>
+       </section>
 
-      <section class="mockup-imgs">
-        <img src="./site/assets/img/ofertas.png" alt=""> <br/>
-        <br/><img src="./site/assets/img/casa&jardim.png" alt=""> <br/>
-        <br/><img src="./site/assets/img/tecnologia.png" alt=""> <br/> <br/>
-      </section>
+       <section class="container">
+        <div class="list">
+          <div class="title"><h1>Ofertas</h1></div>
+          <div class="icon-cart">
+            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+            </svg>            
+            <span>0</span>
+          </div>
+        </div>
+
+        <div class="list-product">
+          <div class="item1">
+            <img src="https://cdn.dooca.store/895/products/ovxoemlrik13geowuyipkxtztc9ucvzefpey.png?v=1614605451"alt="cadeira gamer">
+            <h2>Cadeira Gamer</h2>
+            <div class="preco">R$599,90</div>
+            <button class="addcart">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+
+        <div class="cart-tab">
+          <h1>Carrinho de Compras</h1>
+          <div class="listCart">
+            <div class="item1">
+              <div class="image">
+                <img src="./site/assets/img/listaProdutos/cadeira-fundobranco.jpg" alt="">
+              </div>
+              <div class="name">Cadeira Gamer</div>
+              <div class="total-preco">R$599,90</div>
+              <div class="quantid">
+                <span class="minus"><</span>
+                <span>1</span>
+                <span class="plus">></span>
+              </div>
+            </div>
+          </div>
+          <div class="btn">
+            <button class="close">Fechar</button>
+            <button class="checkout">Confira</button>
+          </div>
+        </div>
+       </section>
+       
+       <script src="app.js"></script>
     </main>
 
     <footer>
@@ -232,12 +270,10 @@
               <h1 class="title-atendimento">Atendimento</h1>
                 <ul>
                   <li class="nav-atend"><a href="./sobre nos.html" class="link-atend">Sobre Nós</a></li>
-                  <li class="nav-atend"><a href="#" class="link-atend">FAQ</a></li>
-                  <li class="nav-atend"><a href="" class="link-atend">Termos e Condições</a></li>
                   <li class="nav-atend"><a href="./fale conosco.html" class="link-atend">Fale Conosco</a></li>
                   <li class="nav-atend"><a href="./politica de privacidade.html" class="link-atend">Política de Privacidade</a></li>
                   <li class="nav-atend"><a href="./politica de devolucao.html" class="link-atend">Política de Devolução</a></li>
-                  <li class="nav-atend"><a href="./politica de envio e entrega.html" class="link-atend">Política de Envio&Entrega</a></li>
+                  <li class="nav-atend"><a href="./politica de envio e entrega.html" class="link-atend">Política de Envio & Entrega</a></li>
                   <li class="nav-atend"><a href="./perguntas e respostas.html" class="link-atend">Perguntas Frequentes</a></li>
                 </ul>
            </div>
