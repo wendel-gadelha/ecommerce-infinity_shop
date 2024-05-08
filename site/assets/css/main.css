@@ -4,7 +4,7 @@ body{
 }
 
 .bottom-submenu nav ul{
-    padding: 1.5rem 6rem;
+    padding: 1.5rem 8rem;
     display: flex;
     justify-content:space-between;
     list-style: none;
@@ -111,16 +111,15 @@ li i{
     
 }
 
-
-
 .text-inicio{
-    padding: 100px;
-    text-align: center;
+    padding: 1.5rem 8rem;
+    margin-top: 50px;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 .container{
-    width: 900px;
-    max-width: 90vw;
+    padding: 1.5rem 8rem;
     margin: auto;
     text-align: center;
     padding-top: 10px;
@@ -177,7 +176,7 @@ li i{
 }
 
 .list-product .item1{
-    background-color: #eeeee6;
+    background-color: #F3F3F3;
     padding: 20px;
     border-radius: 20px;
 }
@@ -194,7 +193,7 @@ li i{
    font-weight: 600;
    font-size: 18px;
    color: #080B3B;
-   margin-top: 10px;
+   margin-top: 3px;
    
 }
 
@@ -251,6 +250,7 @@ body.show-cart .cart-tab{
 .cart-tab .listCart .item1 img{
     width: 100%;
     padding-left: 15px;
+    
 }
 
 .cart-tab .listCart .item1{
@@ -259,6 +259,7 @@ body.show-cart .cart-tab{
     gap: 10px;
     text-align: center;
     align-items: center;
+   
 }
 
 .listCart .quantid span{
