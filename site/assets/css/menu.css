@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 8rem;
+    padding: 20px 150px;
 }
 
 .logo img{
@@ -54,8 +54,8 @@ header{
 }
 
 .pesquisa{
-    width: 500px;
-    height: 30px;
+    width: 480px;
+    height: 27px;
     padding: 5px;
     border-radius: 20px;
     border: none;
