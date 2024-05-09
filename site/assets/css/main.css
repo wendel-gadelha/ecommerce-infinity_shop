@@ -165,7 +165,7 @@ li i{
 }
 
 .list-product .item1 img{
-    width: 220px;
+    width: 190px;
     
 }
 
@@ -182,28 +182,26 @@ li i{
 }
 
 .list-product .item1 h2{
-    letter-spacing: 1px;
     font-weight: 600;
     font-size: 18px;
     color: #080B3B;
-    margin-top: 10px;
 }
 
 .list-product .item1 .preco{
    font-weight: 600;
-   font-size: 18px;
+   font-size: 16px;
    color: #080B3B;
-   margin-top: 3px;
+   margin-top: 2px;
    
 }
 
 .list-product .item1 button{
     background-color: #FF6900;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px 10px;
     border-radius: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
     border: none;
     cursor: pointer;
 }
