@@ -2,8 +2,8 @@ footer{
     background-color: #080B3B;
     color:#ffffff;
     padding: 20px 150px;
-    height: 390px;
-    margin-top: 400px;
+    height: 340px;
+    margin-top: 20px;
 }
 
 .rodape{
@@ -12,43 +12,16 @@ footer{
     margin-top: 40px;
 }
 
-.logo-contatos{
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.logo-rodape{
-    width: 100px;
-    margin: 0 0 20px;  
-}
-
-.logo-contatos li{
-    list-style: none;
-    margin: 3px;
-}
-
-.logo-contatos i{
-    
-    padding-top: 5px;
-    color: #ffffff;
-    
-}
-
-.icon-app img{
-    height: 38px;
-}
-
-.link-app a{
-    cursor: pointer;    
-}
-
-.title-categorias, .title-atendimento, .title-pagamento{
+.title-categorias, .title-atendimento, .title-pagamento, .title-siga, .title-app{
     font-size: 14px;
     font-weight: 400;
-    margin: 0px 0px 20px;
+    margin: 0px 0px 30px;
+}
+
+.nav-cate, .nav-atend{
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 15px;
 }
 
 .link-cate, .link-atend{
@@ -56,18 +29,51 @@ footer{
     color: #ffffff;  
 }
 
-.bandeiras img{
-    height: 170px;
+.logo-contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
 
- .nav-cate, .nav-atend{
+.logo-contatos li{
     list-style: none;
+}
+
+.logo-contatos i{
+    
+    padding-top: 5px;
+    color: #ffffff;
+}
+
+.logo-contatos .icon-media{
     font-size: 14px;
     margin-bottom: 15px;
 }
 
+.bandeiras img{
+    height: 100px;
+}
+
+.app li{
+    list-style: none;
+}
+
+.app .icon-app{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-app img{
+    height: 35px;
+    
+}
+
+.link-app a{
+    cursor: pointer;    
+}
+
 .text-rodape{
     text-align: center;
-     margin: 40px;
+     margin: 55px;
     font-size: 12px;
 }
