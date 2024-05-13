@@ -1,14 +1,14 @@
 body{
     margin: 0;
-
 }
 
 .bottom-submenu nav ul{
-    padding: 1.5rem 8rem;
+    padding: 15px 170px;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    align-items: center;
     list-style: none;
-    z-index: 5; 
+    z-index: 1; 
 }
 
 i{
@@ -16,29 +16,30 @@ i{
 }
 
 .drop-houver a i{
-    margin-left: 5px;
+    margin-left: 3px;
 } 
 
 li i{
-    margin-right: 5px;
+    margin-right: 3px;
 
 }
 
 .bottom-submenu nav ul li a{
-    color:#5c5c5c;
-    font-weight: 400;
+    color:#535358;
+    font-weight: 410;
+    font-size: 15px;
     border-radius: 5px;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 5px 5px;
     display: block;
     transition: .2s;
-    z-index: 5;
+    z-index: 1;
 }
 
 .bottom-submenu nav ul li a:hover{
     background-color: #080B3B;
     color: #fff;
-    z-index: 5;    
+    z-index: 1;    
 }
 
 .drop-houver .categ-m .categ-f{
@@ -53,13 +54,12 @@ li i{
     height: 0;
     overflow: hidden;
     transition: .5s;
-    z-index: 5;
+    z-index: 1;
 }
 
 .drop-houver .drop1, .drop3, .drop4, .drop5, .drop6 a{
-    color: #5c5c5c;
-    font-size: 14px; 
-    
+    color: #535358;
+    font-size: 14px;  
 }
 
 .categ-f , .categ-m {
@@ -70,7 +70,7 @@ li i{
 
 .drop-houver:hover .drop1{
     height: 135px;
-    width: 148px; 
+    width: 130px; 
     
 }
 
@@ -92,27 +92,28 @@ li i{
 
 .drop-houver:hover .drop3{
     height: 135px;
-    width: 169px;
+    width: 150px;
 }
 
 .drop-houver:hover .drop4{
     height: 134px;
-    width: 109px;
+    width: 91px;
 }
 
 .drop-houver:hover .drop5{
     height: 135px;
-    width: 124px;
+    width: 106px;
     
 }
 
 .drop-houver:hover .drop6{
     height: 135px;
+    width: 145px;
     
 }
 
 .text-inicio{
-    padding: 1.5rem 8rem;
+    padding: 20px 150px;
     margin-top: 50px;
     text-align: center;
     margin-bottom: 20px;
@@ -159,8 +160,8 @@ li i{
     color: #fff;
     border-radius: 50%;
     position: absolute;
-    top: 15%;
-    right: -8px;
+    top: 13%;
+    right: 28px;
     cursor: pointer;
 }
 
