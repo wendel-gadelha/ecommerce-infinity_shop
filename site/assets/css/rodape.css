@@ -2,7 +2,7 @@ footer{
     background-color: #080B3B;
     color:#ffffff;
     padding: 20px 150px;
-    height: 340px;
+    height: 345px;
     margin-top: 20px;
 }
 
@@ -74,6 +74,6 @@ footer{
 
 .text-rodape{
     text-align: center;
-     margin: 55px;
+    padding-top: 55px;
     font-size: 12px;
 }
