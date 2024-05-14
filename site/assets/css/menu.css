@@ -22,6 +22,10 @@ header{
     border-radius: 15px;
 }
 
+.logo img a{
+    cursor: pointer;
+}
+
 .logo img{
     height: 70px;
 }
