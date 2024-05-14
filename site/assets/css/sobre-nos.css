@@ -1,26 +1,50 @@
 .sobre-nos{
-    padding: 1.5rem 6rem;
-    margin: 0 0 30px;
-    line-height: 25px;
+    padding: 20px 150px;
     text-align: justify;
+    color: #535358;
 }
 
 .formulario{
     display: flex;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 0px 20px;
+    padding-top: 15px;
+    box-shadow: 0px 3px 8px #dbdbdb;
+    margin-top: 15px;
 }
-    
+
+.novidade{
+    display: block;
+    align-items: center;
+}
+
+.formulario h1{
+    color: #080B3B;
+    font-size: 20px;
+    text-align: left;
+}
+
+.text-form{
+    width: 350px;
+    margin-top: 5px;
+    text-align:left;
+}
 form div{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    color: #535358;
     margin-bottom: 20px;
+    font-size: 16px;
+    
     
 }
 
 form input, form textarea{
-    background-color: #eeeeee;
-    padding: 20px;
-    min-width: 100px;
+    background-color: #f7f7f7;
+    padding: 15px;
     border: 0.1px;
     border-radius: 10px;
 }

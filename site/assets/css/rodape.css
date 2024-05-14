@@ -4,18 +4,23 @@ footer{
     padding: 20px 150px;
     height: 345px;
     margin-top: 20px;
+    
+    
 }
 
 .rodape{
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    
 }
 
 .title-categorias, .title-atendimento, .title-pagamento, .title-siga, .title-app{
     font-size: 14px;
     font-weight: 400;
     margin: 0px 0px 30px;
+   
+    
 }
 
 .nav-cate, .nav-atend{
