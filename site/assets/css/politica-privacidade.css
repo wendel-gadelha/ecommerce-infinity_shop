@@ -1,6 +1,23 @@
-.text-poli-pri{
-    padding: 1.5rem 6rem;
-    margin: 0 0 30px;
-    line-height: 25px;
+main{
+    padding: 20px 150px;
+    height: 1350px;
+   
+}
+
+.titleH1{
+    font-size: 21px;
+    color: #080B3B;
+    padding-top: 40px;
+}
+
+.titleH2{
+    font-size: 18px;
+    color: #080B3B;
+    padding-top: 10px;
+}
+
+.text-pol p{
     text-align: justify;
+    padding-top: 5px;
+    color: #535358;
 }
