@@ -1,18 +1,20 @@
-var radio = document.querySelector('.manual-btn')
-var cont = 1
+let cont = 1;
 
-document.getElementById('radio1').checked = true
+setInterval(proximaImg, 5000);
 
-setInterval(() => {
-    proximaImg()}, 5000)
+function proximaImg() {
+    cont++;
 
-function proximaImg(){
-    cont++
-
-    if(cont > 3){
-        cont = 1
+    if (cont > 3) {
+        cont = 1;
     }
-    
-  document.getElementById('radio' + cont) .checked = true
 
+    document.getElementById('radio' + cont).checked = true;
+
+    // Adicionando a lógica para atualizar a classe .primeiro para controlar a posição do slider
+    if (cont === 1) {
+        document.querySelector('.slider-content').classList.add('primeiro');
+    } else {
+        document.querySelector('.slider-content').classList.remove('primeiro');
+    }
 }

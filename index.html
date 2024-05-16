@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="./site/assets/css/rodape.css">
     <link rel="stylesheet" href="./site/assets/css/main.css">
     <link rel="stylesheet" href="./site/assets/css/menu-lateral.css">
-    <script src="./site/assets/js/script.js" defer></script>
     <script src="./site/assets/js/app.js" defer></script>
-    <script src="slide.js" defer></script>
+    <script src="./site/assets/js/slide.js" defer></script>
     <title>Página Inicial</title>
 </head>
 <body class="">
@@ -29,7 +28,7 @@
             </div>
 
             <div class="barra">
-                <input class="pesquisa" placeholder="Pesquisar produto...">
+              <input id="searchInput" class="pesquisa" placeholder="Pesquisar produto...">
             </div>
 
             <div class="nav-list">
@@ -148,40 +147,40 @@
         </section>
         
         <section class="slider">
-         <div class="slider-content">
-            <input type="radio" name="btn-radio" id="radio1">
-            <input type="radio" name="btn-radio" id="radio2">
-            <input type="radio" name="btn-radio" id="radio3">
-       
-            <div class="slide-box primeiro">
-            <img class="img-desktop" src="./site/assets/img/slide 1.jpg" alt="slide1">
-            <img class="img-mobile" src="./site/assets/img/slide 1-mobile.jpg" alt="slide1-mobile">
-            </div>
-
-            <div class="slide-box">
-            <img class="img-desktop" src="./site/assets/img/slide 2.jpg" alt="slide1">
-            <img class="img-mobile" src="./site/assets/img/slide 2-mobile.jpg" alt="slide1-mobile">
-            </div>
-
-            <div class="slide-box">
-            <img class="img-desktop" src="./site/assets/img/slide 3.jpg" alt="slide1">
-            <img class="img-mobile" src="./site/assets/img/slide 3-mobile.jpg" alt="slide1-mobile">
-            </div>
-
-            <div class="nav-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            </div>
-
-            <div class="nav-manual">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            </div>
-
-         </div>
-       </section>
+          <div class="slider-content">
+              <input type="radio" name="btn-radio" id="radio1" checked>
+              <input type="radio" name="btn-radio" id="radio2">
+              <input type="radio" name="btn-radio" id="radio3">
+             
+              <div class="slide-box primeiro">
+                  <img class="img-desktop" src="./site/assets/img/slide 1.jpg" alt="slide1">
+                  <img class="img-mobile" src="./site/assets/img/slide 1-mobile.jpg" alt="slide1-mobile">
+              </div>
+      
+              <div class="slide-box">
+                  <img class="img-desktop" src="./site/assets/img/slide 2.jpg" alt="slide2">
+                  <img class="img-mobile" src="./site/assets/img/slide 2-mobile.jpg" alt="slide2-mobile">
+              </div>
+      
+              <div class="slide-box">
+                  <img class="img-desktop" src="./site/assets/img/slide 3.jpg" alt="slide3">
+                  <img class="img-mobile" src="./site/assets/img/slide 3-mobile.jpg" alt="slide3-mobile">
+              </div>
+      
+              <div class="nav-auto">
+                  <div class="auto-btn auto-btn1"></div>
+                  <div class="auto-btn auto-btn2"></div>
+                  <div class="auto-btn auto-btn3"></div>
+              </div>
+      
+              <div class="nav-manual">
+                  <label for="radio1" class="manual-btn"></label>
+                  <label for="radio2" class="manual-btn"></label>
+                  <label for="radio3" class="manual-btn"></label>
+              </div>
+          </div>
+      </section>
+      
 
        <section class="text-inicio">
         <div class="text-contend">
@@ -219,16 +218,7 @@
           <h1>Carrinho de Compras</h1>
           <div class="listCart">
             <div class="item1">
-              <div class="image">
-                <img src="./site/assets/img/listaProdutos/fone_semfundo.png" alt="">
-              </div>
-              <div class="name">Headphone JBL</div>
-              <div class="total-preco">R$299,90</div>
-              <div class="quantid">
-                <span class="minus"><</span>
-                <span>1</span>
-                <span class="plus">></span>
-              </div>
+              
             </div>
           </div>
           <div class="btn">
@@ -291,5 +281,6 @@
       </div>
 
     </footer>
+
 </body>
 </html>
