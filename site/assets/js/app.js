@@ -3,7 +3,7 @@ let closeCart = document.querySelector('.close');
 let body = document.querySelector('body');
 let lisProductHTML = document.querySelector('.list-product');
 let listCartHTML = document.querySelector('.listCart');
-let iconCartSpan = document.querySelector('.icon-carrt span');
+let iconCartSpan = document.querySelector('.icon-cart span');
 
 let listProducts = [];
 let carts = [];
@@ -78,14 +78,17 @@ const addCartToHTML = () => {
             totalQuantity = totalQuantity + cart.quantity;
             let newCart = document.createElement('div');
             newCart.classList.add('item1');
+            newCart.dataset.id = cart.product_id;
             let positionProduct = listProducts.findIndex((value) => value.id == cart.product_id);
             let info = listProducts[positionProduct];
+            let precoNumerico = parseFloat(info.preco.replace(',', '.'));
+            let totalPreco = (precoNumerico * cart.quantity).toFixed(2).replace('.', ',');
             newCart.innerHTML = `
             <div class="image">
                 <img src="${info.image}" alt="">
               </div>
               <div class="name">${info.name}</div>
-              <div class="total-preco">R$${info.preco * cart.quantity}</div>
+              <div class="total-preco">R$${totalPreco}</div>
               <div class="quantid">
                 <span class="minus"><</span>
                 <span>${cart.quantity}</span>
@@ -98,13 +101,49 @@ const addCartToHTML = () => {
     }
     iconCartSpan.innerText = totalQuantity;
 }
+listCartHTML.addEventListener('click', (event) => {
+    let positionClick = event.target;
+    if(positionClick.classList.contains('minus') || positionClick.classList.contains('plus')){
+        let product_id = positionClick.parentElement.parentElement.dataset.id;
+        let type = 'minus';
+        if(positionClick.classList.contains('plus')){
+            type = 'plus';
+        }
+        changeQuantity(product_id, type)
+    }
+})
 
+const changeQuantity = (product_id, type) => {
+    let positionItemInCart = carts.findIndex((value) => value.product_id == product_id)
+    if(positionItemInCart >= 0){
+        switch (type) {
+            case 'plus':
+                carts[positionItemInCart].quantity = carts[positionItemInCart].quantity + 1;
+                break;
+            default:
+                let valueChange = carts[positionItemInCart].quantity - 1;
+                if(valueChange > 0){
+                    carts[positionItemInCart].quantity = valueChange;
+                }else{
+                    carts.splice(positionItemInCart, 1);
+                }
+                break;
+        }
+    }
+    addCartToMemory();
+    addCartToHTML();
+}
 const initApp = () => {
     fetch('products.json')
     .then(response => response.json())
     .then(data => {
         listProducts = data;
         addDataToHTML();
+
+        if(localStorage.getItem('cart')){
+            carts = JSON.parse(localStorage.getItem('cart'));
+            addCartToHTML();
+        }
     })
 }
 initApp();

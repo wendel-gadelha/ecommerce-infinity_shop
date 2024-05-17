@@ -221,8 +221,8 @@ li i{
 
 .cart-tab{
     width: 400px;
-    background-color: #080b3bda;
-    color: #fff;
+    background-color: #fffffff6;
+    color: #080B3B;
     position: fixed;
     inset: 0 -400 0 auto;
     display: grid;
@@ -236,9 +236,10 @@ body.show-cart .cart-tab{
 }
 
 .cart-tab h1{
-    padding: 20px;
+    padding: 25px;
     margin: 0;
-    font-weight: 300;
+    font-size: 21px;
+    font-weight: 410;
 }
 
 .cart-tab .btn{
@@ -277,8 +278,8 @@ body.show-cart .cart-tab{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-color: #fff;
-    color: #080B3B;
+    background-color: #080B3B;
+    color: #fff;
     font-weight: 500;
     font-size: 16px;
     border-radius: 50%;
@@ -287,7 +288,7 @@ body.show-cart .cart-tab{
 
 .listCart .quantid span:nth-child(2){
     background-color: transparent;
-    color: #fff;
+    color: #080B3B;
 }
 
 .listCart .item1:nth-child(even){
@@ -301,3 +302,4 @@ body.show-cart .cart-tab{
 .listCart::-webkit-scrollbar{
     width: 0;
 }
+
