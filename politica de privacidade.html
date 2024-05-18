@@ -4,55 +4,48 @@
   <link rel="stylesheet" href="./site/assets/css/menu.css">
   <link rel="stylesheet" href="./site/assets/css/rodape.css">
   <link rel="stylesheet" href="./site/assets/css/politica-privacidade.css">
+  <script src="./site/assets/js/rodape_respon-javascript.js" defer></script>
+  <script src="./site/assets/js/menu.js" defer></script>
   <title>Política de Privacidade</title>
 </head>
 <body>
   <header>
-  
-		<section>
-		
-		  <nav class="nav-bar">
-			  
-			  <div class="logo">
-				<a href="./index.html" class="nav-home">
-				  <img src="./site/assets/img/logo_empresa_cor.png" alt="Logo Infinity">
-				</a>
-			  </div>
-  
-			  <div class="barra">
-				  <input class="pesquisa" placeholder="Pesquisar produto...">
-			  </div>
-  
-			  <div class="nav-list">
-				  <ul>
-					  <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-person-circle"></i>Entrar</a></li>
-					  <li class="nav-item"><a href="#" class="nav-link">|</a></li>
-					  <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-cart-check-fill"></i>Carrinho</a></li>
-				  </ul>
-			  </div>
-			  
-			  <div class="mobile-menu-icon">
-				  <button onclick="menuShow()"><img class="icon" src="./site/assets/img/icon.svg"></button>
-			  </div>
-  
-		  </nav>
-  
-		  <div class="mobile-menu">
-			  <ul>
-				  <li class="nav-item"><a href="#" class="nav-link"><img src="./site/assets/img/login.png">Entrar</a></li>
-				  <li class="nav-item"><a href="#" class="nav-link">|</a></li>
-				  <li class="nav-item"><a href="#" class="nav-link"><img src="./site/assets/img/carrinho.png" alt="Carrinho"> Carrinho</a></li> 
-			  </ul>
-  
-			  <div class="barra">
-				  <input class="pesquisa" placeholder="Pesquisar produto.">
-			  </div>
-  
-		  </div>
-		</section>  
-  
-		  
-	</header>
+    <section>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="./index.html" class="nav-home">
+                    <img src="./site/assets/img/logo_empresa_cor.png" alt="Logo Infinity">
+                </a>
+            </div>
+
+            <div class="barra">
+                <input id="searchInput" class="pesquisa" placeholder="Pesquisar produto...">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-person-circle"></i>Entrar</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">|</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-cart-check-fill"></i>Carrinho</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="toggleMobileMenu()"><i class="bi bi-list"></i></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-person-circle"></i>Entrar</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-cart-check-fill"></i>Carrinho</a></li>
+            </ul>
+            <div class="barra">
+                <input class="pesquisa" placeholder="Pesquisar produto.">
+            </div>
+        </div>
+    </section>
+  </header>
   <main>
     <section class="text-pol">
       <h1 class="titleH1">
@@ -210,9 +203,9 @@
 		  
 		  <div class="logo-contatos">
 			<li class="title-siga">SIGA-NOS</li>
-			<li class="icon-media"><i class="bi bi-instagram"></i>Instagram</li> 
-			<li  class="icon-media"><i class="bi bi-tiktok"></i>Tiktok</li> 
-			<li  class="icon-media"><i class="bi bi-facebook"></i>Facebook</li>
+			<li class="icon-media"><i class="bi bi-instagram"></i> Instagram</li> 
+			<li  class="icon-media"><i class="bi bi-tiktok"></i> Tiktok</li> 
+			<li  class="icon-media"><i class="bi bi-facebook"></i> Facebook</li>
 		  </div>
   
 		  <div class="pagamento">
