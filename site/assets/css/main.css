@@ -239,14 +239,17 @@ body.show-cart .cart-tab {
 
 .cart-tab .btn button {
     background-color: #FF6900;
+    color: #fff;
     border: none;
-    font-weight: 400;
+    font-weight: 420;
     font-size: 16px;
     cursor: pointer;
 }
 
 .cart-tab .btn .close {
-    background-color: #fff;
+    background-color: #080b3b;
+    color: #fff;
+    
 }
 
 .cart-tab .listCart .item1 img {
