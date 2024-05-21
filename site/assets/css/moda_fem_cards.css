@@ -1,15 +1,14 @@
-/* CSS */
-/* Estilos do CSS */
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+main {
     margin: 0;
     background-color: #f7f7f7;
+    padding: 20px 150px;
 }
 
 .container {
-    padding: 20px 150px;
     margin: auto;
     text-align: center;
-    padding-top: 20px;
     transition: transform .5s;
 }
 
@@ -23,12 +22,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 0;
+    
 }
 
 .list .title {
-    font-size: 14px;
+    font-size: 15px;
     color: #080B3B;
+    margin-top: 15px;
 }
 
 .list .icon-cart {
@@ -51,73 +51,143 @@ body {
     cursor: pointer;
 }
 
-.card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-    width: 190px;
+.subTitle h2{
+    font-size: 18px;
+    color: #080B3B;
+    font-weight: 480;
+    text-align: left;
+    margin-top: 15px;
+    
+}
+
+.subTitle p{
+    font-size: 16px;
+    color: #535358;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 5px;
+    padding-right: 11px;
+    
+}
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center; 
+    margin-top: 30px;
+    padding-right: 11px;
+    
 }
 
 .card img {
     max-width: 100%;
+    max-height: 200px;
 }
 
-.card h2 {
-    margin-top: 10px;
+.card {
+    background-color: #fefefe;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 8px #dbdbdb;
+    text-align: center;
+}
+
+.title {
     font-size: 18px;
     color: #080B3B;
+    margin-bottom: 3px;
 }
 
-.rating {
+.card .rating {
     color: #FF6900;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.sizes, .colors {
+.star {
+    margin-right: 4px; /* Ajuste a margem conforme necessário */
+}
+.options {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    color: #080B3B;
+    font-weight: 420;
+    font-size: 14px;
 }
 
 .size {
-    display: inline-block;
-    padding: 5px 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 10px;
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-weight: 450;
 }
 
-.size.selected {
-    background-color: blue; /* Cor azul quando selecionado */
+.size-select{
+    font-weight: 500;
+    color: #080B3B;
+    margin-top: 5px;
 }
 
-.color {
-    width: 25px;
-    height: 25px; /* Corrige a propriedade height */
+.color-options {
+    display: flex;
+    gap: 10px;
 }
-.color {
-    width: 25px;
-    height: 25px;
+
+.color-circle {
+    width: 16px; 
+    height: 16px; 
     border-radius: 50%;
-    margin-right: 10px;
+    border: 1px solid #ccc;
     cursor: pointer;
-    border: 2px solid #dbdbdb;
-    display: inline-block;
 }
 
-/* Adicione as classes CSS para cores específicas */
-.color.white {
-    background-color: #fff;
+input[type="radio"] {
+    display: none;
 }
 
-.color.black {
-    background-color: #000;
+input[type="radio"]:checked + .color-circle {
+    border: 2px solid #080B3B;
 }
 
-.color.pink {
-    background-color: pink;
+.size select {
+    width: auto; 
+    margin-top: 5px;
 }
+
+.color-options {
+    padding-top: 5px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px; 
+}
+
+.color select:focus {
+    outline: none;
+}
+
+.price {
+    font-size: 18px;
+    color: #080B3B;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.add-to-cart {
+    background-color: #FF6900;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: 420;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #E05A00;
+}
+
+
