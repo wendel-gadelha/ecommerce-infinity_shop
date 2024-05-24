@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./site/assets/css/rodape.css">
     <script src="./site/assets/js/rodape_respon-javascript.js" defer></script>
     <script src="./site/assets/js/menu.js" defer></script>
+    <script src="./site/assets/js/form.js" defer></script>
     <title>Sobre Nós!</title>
   </head>
   <body>
@@ -75,34 +76,35 @@
           </div>
           
           <div class="formulario">
-            
-            <form action="">
+            <form id="newsletterForm">
               <h1>Assine nossa Newsletter</h1>
               <div class="text-form">
                 Cadastre-se abaixo para receber nossas promoções e novidades em primeira mão!
               </div> 
-
+        
               <div>
                 <label for="name">Nome:</label>
                 <input type="text" id="name" placeholder="Digite seu nome" name="name" required/>
+                <span id="nameError" class="error-message"></span>
               </div>
-
+        
               <div>
                 <label for="e-mail">E-mail:</label>
                 <input type="email" id="e-mail" placeholder="Digite o seu e-mail" name="e-mail" required/>
               </div>
-
+        
               <div>
                 <label for="telefone">Telefone</label>
                 <input type="number" id="telefone" name="telefone" placeholder="Insira um número de contato">
               </div>
-
+        
               <div class="novidade">
                 <span>Deseja receber nossas novidades?</span>
-                <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
-                <input type="radio" name="novidades" id="nao" value="nao" checked><label for="nao">Não</label>
+                <input type="radio" name="novidades" id="sim" value="sim" required><label for="sim">Sim</label>
+                <input type="radio" name="novidades" id="nao" value="nao" required><label for="nao">Não</label>
+                <span id="novidadeError" class="error-message"></span>
               </div>
-
+        
               <div class="enviar">
                 <input type="submit" value="Enviar">
               </div>
