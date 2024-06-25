@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #f7f7f7;
+    overflow-x: hidden; /* Adicionado para evitar rolagem horizontal */
 }
 
 .bottom-submenu nav ul {
@@ -188,6 +189,7 @@ li i {
 
 .list-product .item1 h2 {
     font-weight: 600;
+    padding: 20px 0px;
     font-size: 18px;
     color: #080B3B;
 }
@@ -249,7 +251,6 @@ body.show-cart .cart-tab {
 .cart-tab .btn .close {
     background-color: #080b3b;
     color: #fff;
-    
 }
 
 .cart-tab .listCart .item1 img {
@@ -349,7 +350,6 @@ body.show-cart .cart-tab {
 
     .list .icon-cart span {
         right: -10px;  /* Ajustar posição para a direita */
-             /* Ajustar posição para cima */
     }
 }
 
@@ -368,7 +368,6 @@ body.show-cart .cart-tab {
 
     .text-inicio p {
         font-size: 12px;
-        
     }
 
     .container {
@@ -377,6 +376,5 @@ body.show-cart .cart-tab {
 
     .cart-tab {
         width: 90%;
-       
     }
 }
