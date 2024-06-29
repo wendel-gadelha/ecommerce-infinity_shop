@@ -1,0 +1,35 @@
+Justificativa das Cores usadas:
+ Escolha de Cores: Identidade, Experiência, Apelo
+
+O azul escuro é a cor predominante no cabeçalho da nossa plataforma. Ele é frequentemente associado à confiança, segurança e profissionalismo. Essas são qualidades essenciais para uma plataforma de e-commerce, pois queremos que nossos clientes se sintam seguros e confiantes ao realizar suas compras.
+
+O laranja é usado como cor de destaque, especialmente em banners promocionais. Esta cor vibrante transmite energia, entusiasmo e urgência, incentivando os clientes a aproveitar as promoções e ofertas especiais. O laranja também cria um contraste visual forte com o azul escuro, atraindo a atenção dos visitantes para as áreas mais importantes do site.
+
+O branco é utilizado como cor de fundo para criar um layout limpo e organizado. Ele ajuda a destacar os elementos visuais e textuais, facilitando a leitura e a navegação. O uso do branco também transmite uma sensação de espaço e simplicidade, contribuindo para uma experiência de usuário agradável e intuitiva.
+
+Banco de Dados:
+Para garantir que a InfintyShop funcione perfeitamente, utilizamos um modelo de banco de dados relacional. Esse modelo nos permite definir claramente as entidades e os relacionamentos entre elas, facilitando a gestão e a consulta dos dados.
+
+Consultas Simples e Junções
+Aqui estão alguns exemplos de consultas simples, incluindo junções de tabelas:
+Consulta 1: Listar todos os produtos e seus respectivos fornecedores.
+Consulta 2: Listar todos os pedidos realizados por um determinado usuário.
+Consulta 3: Obter o total de vendas por produto.
+
+Resultados Esperados
+Com a combinação dessas cores e a robustez da nossa modelagem de dados, 
+esperamos alcançar os seguintes resultados:
+
+Atração: O contraste entre o azul escuro e o laranja chama a atenção dos visitantes, direcionando-os para as promoções e ofertas.
+
+Confiança: O azul escuro transmite segurança e profissionalismo, essenciais 
+para conquistar a confiança dos clientes.
+
+Facilidade de Uso: O branco cria um ambiente visual limpo e espaçoso,
+ facilitando a navegação e melhorando a experiência do usuário.
+
+Eficiência: A estrutura de banco de dados otimizada garante que as 
+operações da plataforma sejam rápidas e confiáveis
+
+Fechar com: 
+O projeto está disponível no GitHub, com uma versão implantada. Todas as etapas foram concluídas dentro do prazo proposto e estamos muito satisfeitos com os resultados alcançados até o momento. Embora o projeto ainda não esteja totalmente finalizado, estamos bastante felizes com o progresso realizado.
