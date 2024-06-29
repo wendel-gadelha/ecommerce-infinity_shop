@@ -12,9 +12,10 @@
     <script src="./site/assets/js/slide.js" defer></script>
     <script src="./site/assets/js/rodape_respon-javascript.js" defer></script>
     <script src="./site/assets/js/menu.js" defer></script>
+    <script src="./site/assets/js/cart.js" defer></script>
     <title>Página Inicial</title>
 </head>
-<body class="">
+<body>
 
   <header>
     <section>
@@ -31,9 +32,15 @@
 
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-person-circle"></i>Entrar</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">|</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-cart-check-fill"></i>Carrinho</a></li>
+                  <li class="nav-item">
+                    <a href="./login.html" class="nav-link" target="_blank">
+                        <i class="bi bi-person-circle"></i>Entrar
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#cart" class="nav-link" id="cart-link"><i class="bi bi-cart-check-fill"></i>Carrinho</a>
+                  </li>
+                
                 </ul>
             </div>
 
@@ -44,8 +51,8 @@
 
         <div class="mobile-menu">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-person-circle"></i>Entrar</a></li>
-                <li class="nav-item"><a href="#" class="nav-link"><i class="bi bi-cart-check-fill"></i>Carrinho</a></li>
+                <li class="nav-item"><a href="./login.html" class="nav-link"><i class="bi bi-person-circle"></i>Entrar</a></li>
+                <li class="nav-item"> <a href="#cart" class="nav-link" id="cart-link"><i class="bi bi-cart-check-fill"></i>Carrinho</a></li>
             </ul>
             <div class="barra">
                 <input class="pesquisa" placeholder="Pesquisar produto.">
@@ -205,18 +212,17 @@
           </div>
         </div>
 
-        <div class="cart-tab">
+        <div id="cart" class="cart-tab">
           <h1>Carrinho de Compras:</h1>
           <div class="listCart">
-            <div class="item1">
               
-            </div>
           </div>
           <div class="btn">
-            <button class="close">Fechar</button>
-            <button class="checkout">Confira</button>
+              <button class="close">Fechar</button>
+              <button class="checkout">Confira</button>
           </div>
         </div>
+      
        </section>
     
     </main>
@@ -262,8 +268,8 @@
 
         <div class="app">
           <li class="title-app">BAIXAR O APP</li>
-          <span class="icon-app"><a href="./login.html" class="link-app"><img src="./site/assets/img/logo app store.png"></a></span>
-          <span class="icon-app"><a href="./login.html" class="link-app"><img src="./site/assets/img/logo google play.png"></a></span>
+          <span class="icon-app"><a href="./mobile.html" class="link-app"><img src="./site/assets/img/logo app store.png"></a></span>
+          <span class="icon-app"><a href="./mobile.html" class="link-app"><img src="./site/assets/img/logo google play.png"></a></span>
         </div>
       </div>
 

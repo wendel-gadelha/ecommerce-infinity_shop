@@ -4,6 +4,10 @@ body {
     overflow-x: hidden; /* Adicionado para evitar rolagem horizontal */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .bottom-submenu nav ul {
     padding: 15px 170px;
     display: flex;
@@ -223,6 +227,7 @@ li i {
     transition: inset 0.3s ease;
 }
 
+
 body.show-cart .cart-tab {
     inset: 0 0 0 auto;
 }
@@ -378,3 +383,4 @@ body.show-cart .cart-tab {
         width: 90%;
     }
 }
+
